@@ -486,12 +486,28 @@ background-color: #31d0aa;
 .footer-social-icons {
 fill:#f4f4fd;
 }
+
+/* Modal */
+
 .backdrop {
    width: 100%; 
    height: 100%;
    background: rgba(46, 47, 66, 0.4);
    position: fixed;
    top: 0;
+   left: 0;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+   transition:  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
 }
 
 .modal {
@@ -504,11 +520,32 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+transition:  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
+
+.backdrop:not(.is-open).modal {
+    transform: translate(-50%, -100%) scale(1.5);
+} 
+
+
 .modal-close-bnt {
 position: absolute;
-padding: 72px, 26px, 26px, 26px;
+top: 24px;
+right: 24px;
 
+}
+.close-link {
+width: 24px;
+height: 24px;
+border-radius: 4px;
+fill: #e7e9fc;
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.1);
+}
+
+.close-link-icon {
+    fill: #2e2f42;
 }
 
 .text-one {
