@@ -550,7 +550,6 @@ background-color:#f4f4fd;
 }
 
 .text-one {
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -562,15 +561,27 @@ margin-bottom: 16px;
 }
 
 .modal-input {
-border: 1px solid #4d5ae5;
 border-radius: 4px;
 width: 100%;
 height: 40px;
 padding-left: 38px;
+padding-bottom: 8px;
+outline: transparent;
+background-color: transparent;
+border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal-input-links {
+position: absolute;
+left: 16px;
+top: 50%;
+transform: translateY(-50%);
+align-items: flex-start;
+width: 18px;
+height: 24px;
 }
 
 .modal-label {
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
@@ -578,4 +589,13 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 display: inline-block;
 margin-bottom: 4px;
+}
+
+
+.input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
