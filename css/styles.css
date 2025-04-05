@@ -603,6 +603,9 @@ height: 24px;
 fill: #2e2f42;
 }
 
+.input-plus-link {
+    position: relative;
+}
 .modal-label {
 font-weight: 400;
 font-size: 12px;
