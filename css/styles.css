@@ -533,15 +533,13 @@ transition:  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: absolute;
 top: 24px;
 right: 24px;
-
-}
-.close-link {
 width: 24px;
 height: 24px;
 border-radius: 4px;
 fill: #e7e9fc;
 stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.1);
+
 }
 
 .close-link-icon {
