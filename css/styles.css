@@ -487,6 +487,58 @@ background-color: #31d0aa;
 fill:#f4f4fd;
 }
 
+.footer-form-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.footer-form {
+display: flex;
+gap: 24px;
+}
+
+.footer-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+ .input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+ }
+
+.footer-button{
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+background-color: #4d5ae5;
+border: none;
+}
+
+.footer-form-wrap {
+margin-left: auto;
+}
+
+
+
 /* Modal */
 
 .backdrop {
@@ -529,7 +581,7 @@ transition:  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 
-.modal-close-bnt {
+.modal-close-btn {
 position: absolute;
 top: 24px;
 right: 24px;
