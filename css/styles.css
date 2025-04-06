@@ -700,3 +700,9 @@ align-items: center;
 .modal-check-icon {
 
 }
+
+.modal-check-icon-accept {
+    width: 10px;
+    height: 8px;
+    
+}
