@@ -689,6 +689,7 @@ margin-right: 8px;
 display: flex;
 justify-content: center;
 align-items: center;
+fill: transparent;
 }
 .modal-check:checked + .modal-check-text span {
     background-color: #404bbf;
@@ -704,5 +705,9 @@ align-items: center;
 .modal-check-icon-accept {
     width: 10px;
     height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill:#f4f4fd;
     
 }
