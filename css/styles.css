@@ -705,14 +705,10 @@ width: 100%;
 
 
 .modal-label-input{
-    /* margin-bottom: 8px;
-    margin-left: 24px;
-    margin-right: 24px; */
-    /* padding: 72px 24px 24px 24px; */
     margin-bottom: 8px; 
 }
 
-.modal-label-input .four {
+.modal-label-input-four {
     margin-bottom: 16px;
 }
 
