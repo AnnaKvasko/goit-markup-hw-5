@@ -182,7 +182,7 @@ padding-bottom: 120px;
     gap: 24px;
 }
 
-.hidden {
+.visually-hidden {
   position: absolute;   
   width: 1px;          
   height: 1px;         
@@ -712,7 +712,7 @@ width: 100%;
     margin-bottom: 8px; 
 }
 
-.modal-label-input-wrap {
+.modal-label-input .four {
     margin-bottom: 16px;
 }
 
